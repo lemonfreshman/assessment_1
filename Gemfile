@@ -1,4 +1,3 @@
-source "https://rubygems.com"
+source 'https://rubygems.com'
 
-gem "guard-rubocop"
-
+gem 'guard-rubocop'
