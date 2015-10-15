@@ -6,7 +6,11 @@ class CreditCard
     @balance = 0.00
   end
 
-  def charge(amount)
-    @balance = balance + amount
+  def payment(pay_amount)
+    @balance = balance - pay_amount
+  end
+
+  def charge(charge_amount)
+    @balance = balance + charge_amount
   end
 end
